@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(96, 132, 168);
+    background-color: #bfa8ff;
     font-size: 40px;
     display: flex;
     flex-direction: column;
@@ -17,7 +17,7 @@ h1{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #161414;
+    /* background-color: #9567ff; */
 }
 .navbar li{
     display: inline;
@@ -25,13 +25,13 @@ h1{
 }
 .navbar li a {
     display: block;
-    color: white;
+    color: #4929a0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 .navbar li a:hover {
-    background-color: #bb1616;
+    background-color: #6a5d8f;
 }
 
 #intro{
@@ -42,7 +42,7 @@ h1{
 #bio{
     display: flex;
     flex-direction: column;
-    max-width: 50%;/
+    max-width: 50%;
 }
 
 #words{

@@ -10,7 +10,7 @@ h2{
 }
 #project-description{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     
 }
 .title{
@@ -19,7 +19,7 @@ h2{
     flex-direction: row;
     justify-content: space-between;
 }
-#time{
+#languages{
     align-self: center;
 }
 iframe {
@@ -31,4 +31,7 @@ iframe {
 p{
     font-size: 20px;
     margin: 10px;
+}
+#links{
+    font-size: 24px;
 }
