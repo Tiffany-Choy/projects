@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(96, 132, 168);
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    margin: 25px;
+}
+#profile{
+    width: 375px;
+    max-height: 500px;
+}
+.navbar{
+    align-items: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #161414;
+}
+.navbar li{
+    display: inline;
+    float: right;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #bb1616;
+}
+
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#bio{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;/
+}
+
+#words{
+    margin: 0;
+}
+#languages{
+    margin: 0;
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#contact-info{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
