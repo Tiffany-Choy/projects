@@ -1,5 +1,5 @@
 h2{
-    font-size: 40px;
+    text-align: left;
 }
 .job{
     display: flex;
@@ -21,6 +21,7 @@ h2{
 }
 #time{
     align-self: center;
+    text-align: right;
 }
 img {
     float: left;
@@ -30,7 +31,6 @@ img {
 }
 
 p{
-    font-size: 20px;
     margin: 10px;
 }
 

@@ -1,16 +1,13 @@
-h2{
-    font-size: 40px;
-}
 .project{
     display: flex;
     align-items: center;
     flex-direction: column;
-    /* background-color: red; */
     margin: 50px;
 }
 #project-description{
     display: flex;
     flex-direction: column;
+    width: 100%;
     
 }
 .title{
@@ -22,17 +19,10 @@ h2{
 #languages{
     align-self: center;
 }
-iframe {
-    float: right;
-    margin: 10px;
-    max-height: 100px;
-    background-color: yellow;
-}
 p{
-    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-#links{
-    font-size: 24px;
+#text{
+    text-align: justify;
 }

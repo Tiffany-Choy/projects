@@ -1,23 +1,31 @@
 body{
     background-color: #bfa8ff;
-    font-size: 40px;
+    font-size: 30px;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    margin: 50px;
 }
 h1{
     text-align: center;
     margin: 25px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font-size: 70px;
+}
+h2{
+    font-size: 50px;
 }
 #profile{
-    width: 375px;
-    max-height: 500px;
+
+    float: right;
+    margin-left: 30px;
 }
 .navbar{
     align-items: row;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* background-color: #9567ff; */
 }
 .navbar li{
     display: inline;
@@ -34,21 +42,8 @@ h1{
     background-color: #6a5d8f;
 }
 
-#intro{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#bio{
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-}
-
-#words{
-    margin: 0;
-}
-#languages{
+p{
+    text-align: justify;
     margin: 0;
 }
 #contact{
