@@ -19,10 +19,6 @@ h2{
     flex-direction: row;
     justify-content: space-between;
 }
-#time{
-    align-self: center;
-    text-align: right;
-}
 img {
     float: left;
     margin: 10px;
