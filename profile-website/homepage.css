@@ -81,3 +81,19 @@ p{
 .location{
     font-style: italic;
 }
+
+#skills{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#Languages{
+    display: flex;
+    flex-direction: row;
+}
+#skills > div{
+    flex-grow: 1;
+}
+ul{
+    
+}
