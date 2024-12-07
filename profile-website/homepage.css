@@ -31,6 +31,7 @@ h4{
 
     float: right;
     margin-left: 30px;
+    max-width: 400px;
 }
 .navbar{
     align-items: row;
