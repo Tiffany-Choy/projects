@@ -5,13 +5,18 @@ export default function Navbar() {
         Tiffany Choy
       </a>
       <ul>
-        <li>
-          <a href="/work-experience">Work Experience</a>
-        </li>
-        <li>
-          <a href="/projects">Projects</a>
-        </li>
+        <customLink href="/work-experience">Work Experience</customLink>
+        <customLink href="/projects">Projects</customLink>
       </ul>
     </nav>
   );
+}
+
+function customLink({href, children, ...props }){
+    const path = window.location.pathname
+    return (
+        <li className={path === href ? "active" : ""}>
+            <a href={href} {...props}>{children}</a>
+        </li>
+    )
 }
