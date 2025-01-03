@@ -20,7 +20,7 @@ function Introduction() {
   return (
     <>
       <div className="intro">
-        <h2>About</h2>
+        <h2 id="sectionHeader">About</h2>
         <div id="intro-content">
           <p id="words">
             I am a passionate software engineer and recent UC Davis graduate
@@ -41,7 +41,7 @@ function Skills() {
   return (
     <>
       <div className="skills">
-        <h2>Skills</h2>
+        <h2 id="sectionHeader">Skills</h2>
         <div id="skills-list">
           <div id="systems">
             <h3>Systems</h3>
@@ -109,7 +109,7 @@ function Education() {
   return (
     <>
       <div className="education">
-        <h2>Education</h2>
+        <h2 id="sectionHeader">Education</h2>
         <div class="school">
           <div>
             <h3>
@@ -134,32 +134,38 @@ function Education() {
 
 function FeaturedProjects() {
   return (
-    <Project
-      id="travel-recs"
-      title="Travel Recommender"
-      languages="Python"
-      text="This project utilizes machine learning with content based
+    <>
+      <h2 id="sectionHeader">Recent Project</h2>
+      <Project
+        id="travel-recs"
+        title="Travel Recommender"
+        languages="Python"
+        text="This project utilizes machine learning with content based
                     solutions to analyze data and create suggestions on where to travel
                     next based on the correlation of duration, accommodation type,
                     accommodation cost, transportation type, and transportation cost using a previous destination."
-      github="https://github.com/Tiffany-Choy/projects/tree/main/travel%20recommendations"
-    />
+        github="https://github.com/Tiffany-Choy/projects/tree/main/travel%20recommendations"
+      />
+    </>
   );
 }
 
 function FeaturedWork() {
   return (
-    <Work
-      id="juni"
-      title="Instructor at Juni Learning"
-      time="May 2021 - Present"
-      logo={juniLogo}
-      description="As a Computer Science Instructor at Juni Learning, I taught programming and computer 
+    <>
+      <h2 id="sectionHeader">Recent Work</h2>
+      <Work
+        id="juni"
+        title="Instructor at Juni Learning"
+        time="May 2021 - Present"
+        logo={juniLogo}
+        description="As a Computer Science Instructor at Juni Learning, I taught programming and computer 
         science concepts to students aged 8-18 through customized one-on-one sessions. I covered languages 
         such as Python, Java, and C++, as well as concepts like algorithms and data structures. I provided 
         personalized feedback to help students develop problem-solving skills, debug code, and complete 
         projects. I adapted my teaching to individual learning styles and maintained regular communication 
         with parents."
-    />
+      />
+    </>
   );
 }
