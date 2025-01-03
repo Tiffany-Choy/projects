@@ -1,5 +1,4 @@
-
-export default function Work({ id, title, time, logo, description }) {
+export default function Work({ id, title, time, logo, description, skills }) {
   return (
     <>
       <div class="job" id={id}>
@@ -11,9 +10,19 @@ export default function Work({ id, title, time, logo, description }) {
           <div id="logo">
             <img src={logo} id="logo" />
           </div>
-          <p id="text">{description}</p>
+          <div id="content">
+            <p id="text">{description}</p>
+            {skills ? (
+              <div id="skillsList">
+                <Skills items={skills} />
+              </div>
+            ) : null}
+          </div>
         </div>
       </div>
     </>
   );
+}
+function Skills({ items }) {
+  return items.map((skill) => <li id="skillItem">{skill.name}</li>);
 }

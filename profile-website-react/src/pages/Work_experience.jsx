@@ -10,32 +10,25 @@ export default function Work_experience() {
         title="Instructor at Juni Learning"
         time="May 2021 - Present"
         logo={juniLogo}
-        description="As a Computer Science Instructor at Juni Learning, I taught both foundational and advanced computer 
-                    science concepts to students aged 8-18 through one-on-one sessions on zoom. I designed and delivered 
-                    customized lesson plans covering a range of topics including programming languages like Python, Java, C++, 
-                    HTML/CSS, and Javascript, as well as algorithms, data structures, and computational thinking. I provided 
-                    clear explanations and guidance, helping students develop critical problem-solving skills, understand 
-                    coding logic, the ability to debug their code, and successfully complete coding projects. By assessing 
-                    student progress through assignments, quizzes, and projects, I offered detailed feedback to foster growth 
-                    and improve coding proficiency. My approach was to motivate and engage students in a positive and supportive 
-                    manner, cultivating a passion for coding. I adapted my teaching methods to accommodate diverse learning styles, ensuring 
-                    that every student could progress at their own pace. Additionally, I maintained open communication with 
-                    parents to provide regular updates on student progress and discuss areas for improvement. I also kept 
-                    myself up-to-date with the latest trends in computer science education and contributed to the 
-                    development of course materials and curriculum improvements to enhance the learning experience for 
-                    future students."
+        description="As a Computer Science Instructor at Juni Learning, I taught programming and computer 
+        science concepts to students aged 8-18 through customized one-on-one sessions. I covered languages 
+        such as Python, Java, and C++, as well as concepts like algorithms and data structures. I provided 
+        personalized feedback to help students develop problem-solving skills, debug code, and complete 
+        projects. I adapted my teaching to individual learning styles and maintained regular communication 
+        with parents."
+        skills= {[{name: 'Python'}, {name: 'Java'}, {name: 'C++'}, {name: 'JavaScript'}, {name: 'HTML/CSS'}]}
       />
       <Work
         id="trc"
         title="Assistant at the Transit Research Center of UC Davis"
         time="October 2023 - June 2024"
         logo={trcLogo}
-        description="As an Assistant at the Transit Research Center of UC Davis, I supported the research and media teams by redesigning 
-                    and maintaining the center’s website to enhance communication with both researchers and the public. I worked closely 
-                    with cross-functional teams, translating their ideas into engaging, user-friendly web content. My responsibilities 
-                    included summarizing research projects, creating and updating web pages to align with the site’s theme, and 
-                    incorporating interactive elements to boost audience engagement. I played a key role in bringing team ideas to life, 
-                    ensuring that content was accessible, visually appealing, and aligned with the Transit Research Center’s goals."
+        description="As an Assistant at the UC Davis Transit Research Center, I helped redesign and maintain the 
+                    center's website to improve communication with researchers and the public. I collaborated 
+                    with cross-functional teams to create engaging, user-friendly content, summarized research 
+                    projects, and incorporated interactive elements to enhance audience engagement. My work 
+                    ensured that the website was visually appealing, accessible, and aligned with the center’s goals."
+        skills= {[{name: 'SiteFarm'}, {name: 'documentation'}, {name: 'cross-functional teams'}]}
       />
     </>
   );

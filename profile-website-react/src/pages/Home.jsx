@@ -23,18 +23,13 @@ function Introduction() {
         <h2>About</h2>
         <div id="intro-content">
           <p id="words">
-            Hello! I’m a passionate software engineer with a strong desire to
-            continually expand my knowledge and make a positive impact on both
-            my local community and the world at large. I’m a recent graduate of
-            UC Davis, where I honed my skills in computer science and developed
-            a deep interest in coding, problem-solving, and building meaningful
-            technology solutions. As I transition into the software engineering
-            industry, I am excited to apply my technical skills to real-world
-            projects and work collaboratively with talented teams to create
-            innovative solutions. I’m driven by the opportunity to continuously
-            learn, tackle new challenges, and make a tangible impact through
-            technology. I look forward to the journey ahead and am eager to
-            contribute to projects that can help shape the future.
+            I am a passionate software engineer and recent UC Davis graduate
+            with a strong foundation in computer science. I am eager to apply my
+            coding and problem-solving skills to real-world projects,
+            collaborating with talented teams to create innovative solutions.
+            Driven by a desire for continuous learning and a commitment to
+            making a positive impact, I look forward to contributing to projects
+            that shape the future.
           </p>
           <img id="profile" src={profilePic}></img>
         </div>
@@ -152,27 +147,19 @@ function FeaturedProjects() {
   );
 }
 
-function FeaturedWork(){
-  return(
+function FeaturedWork() {
+  return (
     <Work
-        id="juni"
-        title="Instructor at Juni Learning"
-        time="May 2021 - Present"
-        logo={juniLogo}
-        description="As a Computer Science Instructor at Juni Learning, I taught both foundational and advanced computer 
-                    science concepts to students aged 8-18 through one-on-one sessions on zoom. I designed and delivered 
-                    customized lesson plans covering a range of topics including programming languages like Python, Java, C++, 
-                    HTML/CSS, and Javascript, as well as algorithms, data structures, and computational thinking. I provided 
-                    clear explanations and guidance, helping students develop critical problem-solving skills, understand 
-                    coding logic, the ability to debug their code, and successfully complete coding projects. By assessing 
-                    student progress through assignments, quizzes, and projects, I offered detailed feedback to foster growth 
-                    and improve coding proficiency. My approach was to motivate and engage students in a positive and supportive 
-                    manner, cultivating a passion for coding. I adapted my teaching methods to accommodate diverse learning styles, ensuring 
-                    that every student could progress at their own pace. Additionally, I maintained open communication with 
-                    parents to provide regular updates on student progress and discuss areas for improvement. I also kept 
-                    myself up-to-date with the latest trends in computer science education and contributed to the 
-                    development of course materials and curriculum improvements to enhance the learning experience for 
-                    future students."
-      />
-  )
+      id="juni"
+      title="Instructor at Juni Learning"
+      time="May 2021 - Present"
+      logo={juniLogo}
+      description="As a Computer Science Instructor at Juni Learning, I taught programming and computer 
+        science concepts to students aged 8-18 through customized one-on-one sessions. I covered languages 
+        such as Python, Java, and C++, as well as concepts like algorithms and data structures. I provided 
+        personalized feedback to help students develop problem-solving skills, debug code, and complete 
+        projects. I adapted my teaching to individual learning styles and maintained regular communication 
+        with parents."
+    />
+  );
 }

@@ -7,18 +7,21 @@ body {
 }
 
 .container{
-    margin: 1rem;
+    /* margin: 1rem; */
     text-align: center;
+    margin: 50px;
 }
 
 .nav{
     background-color: #342;
     color: rgb(255, 255, 255);
     display: flex;
+    position: fixed;
     justify-content: space-between;
-    align-items: stretch;
+    width: 100vw;
     gap: 2rem;
     padding: 0 1rem;
+    
 }
 
 .link-to-home{
@@ -28,6 +31,8 @@ body {
 .nav ul{
     padding: 0;
     margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
     list-style: none;
     display: flex;
     gap: 1rem;
