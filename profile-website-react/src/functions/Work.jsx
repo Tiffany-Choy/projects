@@ -24,5 +24,6 @@ export default function Work({ id, title, time, logo, description, skills }) {
   );
 }
 function Skills({ items }) {
-  return items.map((skill) => <li id="skillItem">{skill.name}</li>);
+  return items.map((skill) => <li id="skillItem">{skill}</li>);
 }
+   
