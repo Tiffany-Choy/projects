@@ -1,7 +1,9 @@
 import profilePic from "../images/profile-pic.jpg";
 import juniLogo from "../images/juni-learning-logo.png";
+import Job from "../data/work.json";
 import "./stylesheets/Home.css";
 import Project from "../functions/Project.jsx";
+import ProjectData from "../data/project.json"
 import Work from "../functions/Work.jsx";
 
 export default function Home() {
@@ -137,14 +139,13 @@ function FeaturedProjects() {
     <>
       <h2 id="sectionHeader">Recent Project</h2>
       <Project
-        id="travel-recs"
-        title="Travel Recommender"
-        languages="Python"
-        text="This project utilizes machine learning with content based
-                    solutions to analyze data and create suggestions on where to travel
-                    next based on the correlation of duration, accommodation type,
-                    accommodation cost, transportation type, and transportation cost using a previous destination."
-        github="https://github.com/Tiffany-Choy/projects/tree/main/travel%20recommendations"
+        id={ProjectData[0].id}
+        title={ProjectData[0].title}
+        languages={ProjectData[0].languages}
+        text={ProjectData[0].text}
+        github={ProjectData[0].github}
+        live={ProjectData[0].live}
+        work={ProjectData[0].work}
       />
     </>
   );
@@ -155,17 +156,12 @@ function FeaturedWork() {
     <>
       <h2 id="sectionHeader">Recent Work</h2>
       <Work
-        id="juni"
-        title="Instructor at Juni Learning"
-        time="May 2021 - Present"
-        logo={juniLogo}
-        description="As a Computer Science Instructor at Juni Learning, I taught programming and computer 
-        science concepts to students aged 8-18 through customized one-on-one sessions. I covered languages 
-        such as Python, Java, and C++, as well as concepts like algorithms and data structures. I provided 
-        personalized feedback to help students develop problem-solving skills, debug code, and complete 
-        projects. I adapted my teaching to individual learning styles and maintained regular communication 
-        with parents."
-      />
+              id={Job[0].id}
+              title={Job[0].title}
+              logo={Job[0].logo}
+              description={Job[0].description}
+              skills={Job[0].skills}
+            />
     </>
   );
 }
