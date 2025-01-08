@@ -1,5 +1,4 @@
 import profilePic from "../images/profile-pic.jpg";
-import juniLogo from "../images/juni-learning-logo.png";
 import Job from "../data/work.json";
 import "./stylesheets/Home.css";
 import Project from "../functions/Project.jsx";
